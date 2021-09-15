@@ -1,12 +1,12 @@
-# function to check if small string is 
+# function to check if small string is
 # there in big string
 def check(string, sub_str):
-    if (string.find(sub_str) == -1):
-        print("NO")
-    else:
-        print("YES")
-            
+	if (string.find(sub_str) == -1):
+		print("NO")
+	else:
+		print("YES")
+			
 # driver code
-string = "saikiran"
-sub_str ="sai"
+string = "geeks for geeks"
+sub_str ="geek"
 check(string, sub_str)
